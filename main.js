@@ -385,7 +385,41 @@ var myMsg = [
 ];
 console.log(myMsg);
 
-console.sort();  // Sort
+myMsg.sort();  // Sort
+
+console.log(myMsg);
+*/
+
+/*
+var myMsg = [
+    "Msg 2",
+    "Msg 1",
+    "Msg 4",
+    "Msg 3"
+];
+
+console.log(myMsg);
+
+myMsg.reverse();
+
+console.log(myMsg);
+*/
+
+/*
+var myMsg = [
+    "Msg 2",
+    "Msg 1",
+    "Msg 4",
+    "Msg 3"
+];
+
+console.log(myMsg);
+
+myMsg.sort();
+
+console.log(myMsg);
+
+myMsg.reverse();
 
 console.log(myMsg);
 */
@@ -399,6 +433,11 @@ var myMsg = [
 
 console.log(myMsg);
 
-console.reverse();
+myMsg.sort();
 
 console.log(myMsg);
+
+myMsg.reverse();
+
+console.log(myMsg);
+
