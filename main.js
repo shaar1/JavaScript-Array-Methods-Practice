@@ -223,7 +223,7 @@ myMsg.push("Msg 5");
 console.log(myMsg);
 */
 
-
+/*
 var myMsg = [
     "Msg 1", // 0 index and 1 In Length
     "Msg 2", // 1 index and 2 In Length
@@ -235,3 +235,17 @@ console.log(myMsg);
 myMsg.unshift("Msg 0");
 
 console.log(myMsg);
+*/
+
+var myMsg = [
+    "Msg 1", // 0 index and 1 In Length
+    "Msg 2", // 1 index and 2 In Length
+    "Msg 3", // 2 index and 3 In Length
+    "Msg 4" // 3 index and 4 In Length
+];
+console.log(myMsg);
+
+myMsg.splice(1 , 2);
+
+console.log(myMsg);
+
