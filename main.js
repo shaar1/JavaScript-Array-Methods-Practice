@@ -167,6 +167,7 @@ var myMsg = [
 console.log(myMsg.join(" - "));
 */
 
+/*
 // To Join
 var myMsg = [
     "Msg 1",
@@ -175,3 +176,22 @@ var myMsg = [
     "Msg 4"
 ];
 console.log(myMsg.join(" and "));
+*/
+
+
+var myMsg = [
+    "Msg 1",   // 0 index
+    "Msg 2",   // 1 index
+    "Msg 3",   // 2 index
+    "Msg 4"    // 3 index
+];
+
+console.log(myMsg);
+
+myMsg[4] = "Msg 5"; // 4 index
+
+console.log(myMsg);
+
+
+
+
