@@ -488,7 +488,7 @@ myMsg.sort();
 console.log(myMsg.slice(-3, -1));
 */
 
-
+/*
 var myMsg = [
     "Msg 1",
     "Msg 2",
@@ -501,3 +501,25 @@ var myMsg2 = [
 ];
 
 console.log(myMsg.concat(myMsg2));
+*/
+/*
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+console.log(myMsg.indexOf("Msg 2"));
+*/
+
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+console.log(myMsg.lastIndexOf("Msg 2"));
+
+
