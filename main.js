@@ -9,6 +9,12 @@ var x = fruits.toString();
 */
 
 
+/*
+// To Locale String
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = fruits.toLocaleString();
+*/
+
 
 /*
 var myMsg = "Welcome To that websait";
@@ -65,10 +71,10 @@ var myMsg = [
 ];
 console.log(myMsg);
 
-console.log(myMsg.toString); // To String
+console.log(myMsg.toString()); // To String
 */
 
-
+/*
 var myMsg = [
     "Msg 1",
     "Msg 2",
@@ -77,6 +83,18 @@ var myMsg = [
 ];
 console.log(myMsg);
 
-console.log(myMsg.toLocaleString); // To String
+console.log(myMsg.toLocaleString()); // To Locale String
+*/
 
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
 
+var myDate = new Date();
+
+myString = myDate.toString();
+
+console.log(myString);
