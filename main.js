@@ -423,7 +423,7 @@ myMsg.reverse();
 
 console.log(myMsg);
 */
-
+/*
 var myMsg = [
     "Msg 2",
     "Msg 1",
@@ -440,4 +440,26 @@ console.log(myMsg);
 myMsg.reverse();
 
 console.log(myMsg);
+*/
 
+/*
+var myMsg = [
+    "Msg 2",
+    "Msg 1",
+    "Msg 4",
+    "Msg 3"
+];
+myMsg.sort();
+
+console.log(myMsg.slice(1, 3));
+*/
+
+var myMsg = [
+    "Msg 2",
+    "Msg 1",
+    "Msg 4",
+    "Msg 3"
+];
+myMsg.sort();
+
+console.log(myMsg.slice());
