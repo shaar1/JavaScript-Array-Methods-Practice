@@ -10,7 +10,7 @@ if (Array.isArray(myMsg)){
     console.log("No This Is Not Array");
 }
 */
-
+/*
 var myMsg = [
 
     "Msg 1",
@@ -27,3 +27,19 @@ if (Array.isArray(myMsg)) {
 } else {
     console.log("No This Is Not Array");
 }
+*/
+
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+console.log(myMsg.length);
+
+console.log(myMsg);
+
+myMsg.length =2;
+
+console.log(myMsg);
