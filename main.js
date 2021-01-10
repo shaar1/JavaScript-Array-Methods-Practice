@@ -15,6 +15,17 @@ var fruits = ["Banana", "Orange", "Apple", "Mango"];
 var x = fruits.toLocaleString();
 */
 
+/*
+// To Join
+1
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var energy = fruits.join();
+
+2
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var energy = fruits.join(" and ");
+*/
+
 
 /*
 var myMsg = "Welcome To that websait";
@@ -116,7 +127,7 @@ console.log(myDate);
 
 console.log(myString);
 */
-
+/*
 var myMsg = [
     "Msg 1",
     "Msg 2",
@@ -132,3 +143,35 @@ console.log(myDate);
 
 
 console.log(myString);
+*/
+
+/*
+// To Join
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+console.log(myMsg.join());
+*/
+
+/*
+// To Join
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+console.log(myMsg.join(" - "));
+*/
+
+// To Join
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+console.log(myMsg.join(" and "));
