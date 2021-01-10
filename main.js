@@ -453,7 +453,7 @@ myMsg.sort();
 
 console.log(myMsg.slice(1, 3));
 */
-
+/*
 var myMsg = [
     "Msg 2",
     "Msg 1",
@@ -463,3 +463,41 @@ var myMsg = [
 myMsg.sort();
 
 console.log(myMsg.slice());
+*/
+
+/*
+var myMsg = [
+    "Msg 2",
+    "Msg 1",
+    "Msg 4",
+    "Msg 3"
+];
+myMsg.sort();
+
+console.log(myMsg.slice(-3, -1));
+*/
+/*
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+myMsg.sort();
+
+console.log(myMsg.slice(-3, -1));
+*/
+
+
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+var myMsg2 = [
+    "One",
+    "Two"
+];
+
+console.log(myMsg.concat(myMsg2));
