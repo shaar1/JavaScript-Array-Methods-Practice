@@ -512,7 +512,7 @@ var myMsg = [
 
 console.log(myMsg.indexOf("Msg 2"));
 */
-
+/*
 var myMsg = [
     "Msg 1",
     "Msg 2",
@@ -521,5 +521,36 @@ var myMsg = [
 ];
 
 console.log(myMsg.lastIndexOf("Msg 2"));
+*/
+
+/*
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+console.log(myMsg.lastIndexOf("Msg 2", 3));
+*/
+/*
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+console.log(myMsg.lastIndexOf("Msg 2", 0));
+*/
+
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+console.log(myMsg.indexOf("Msg 4", 2));
 
 
