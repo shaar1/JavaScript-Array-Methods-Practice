@@ -86,6 +86,7 @@ console.log(myMsg);
 console.log(myMsg.toLocaleString()); // To Locale String
 */
 
+/*
 var myMsg = [
     "Msg 1",
     "Msg 2",
@@ -96,5 +97,38 @@ var myMsg = [
 var myDate = new Date();
 
 myString = myDate.toString();
+
+console.log(myString);
+*/
+/*
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+var myDate = new Date();
+
+myString = myDate.toString();
+console.log(myDate);
+
+
+console.log(myString);
+*/
+
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+
+var myDate = new Date();
+
+myString = myDate.toLocaleString();
+
+console.log(myDate);
+
 
 console.log(myString);
