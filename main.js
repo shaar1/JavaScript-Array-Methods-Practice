@@ -362,7 +362,7 @@ console.log(myMsg.pop);
 
 console.log(myMsg);
 */
-
+/*
 var myMsg = [
     "Msg 1", 
     "Msg 2",
@@ -374,5 +374,18 @@ console.log(myMsg);
 console.log(myMsg.shift());
 
 console.log(myMsg);
+*/
 
+
+var myMsg = [
+    "Msg 2", 
+    "Msg 1",
+    "Msg 4", 
+    "Msg 3" 
+];
+console.log(myMsg);
+
+console.sort();
+
+console.log(myMsg);
 
