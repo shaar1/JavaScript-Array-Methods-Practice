@@ -305,7 +305,7 @@ myMsg.splice(1 , 0, "Item 1", "Item 2");
 console.log(myMsg);
 
 */
-
+/*
 var myMsg = [
     "Msg 1", // 0 index and 1 In Length
     "Msg 2", // 1 index and 2 In Length
@@ -317,7 +317,18 @@ console.log(myMsg);
 myMsg.splice(0 , 0, "Item 1", "Item 2");
 
 console.log(myMsg);
+*/
 
 
+var myMsg = [
+    "Msg 1", // 0 index and 1 In Length
+    "Msg 2", // 1 index and 2 In Length
+    "Msg 3", // 2 index and 3 In Length
+    "Msg 4" // 3 index and 4 In Length
+];
+console.log(myMsg);
 
+myMsg.pop();
+
+console.log(myMsg);
 
