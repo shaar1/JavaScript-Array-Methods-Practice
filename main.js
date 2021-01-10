@@ -1,7 +1,12 @@
 /*global console, alert, propt*/
 // första exampel om array är array eller nåt annat
 // Get och Set
+
+/*
 // To String
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = fruits.toString();
+*/
 
 
 
@@ -42,7 +47,7 @@ var myMsg = [
     "Msg 3",
     "Msg 4"
 ];
-                               // Get och Set
+                               // Get och Set 
 console.log(myMsg.length);
 
 console.log(myMsg);
@@ -51,7 +56,7 @@ myMsg.length =2;
 
 console.log(myMsg);
 */
-
+/*
 var myMsg = [
     "Msg 1",
     "Msg 2",
@@ -61,4 +66,17 @@ var myMsg = [
 console.log(myMsg);
 
 console.log(myMsg.toString); // To String
+*/
+
+
+var myMsg = [
+    "Msg 1",
+    "Msg 2",
+    "Msg 3",
+    "Msg 4"
+];
+console.log(myMsg);
+
+console.log(myMsg.toLocaleString); // To String
+
 
